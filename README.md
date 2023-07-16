@@ -1,41 +1,48 @@
-# Front End Project Support Day 1
+# Front End Project Support Day 1 - [Getting started with Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start)
 
-Slide Deck: [Link](https://docs.google.com/presentation/d/1_ZBaeoMfeYqwBO4MkU4q553OPrSVHYhkPX7eDFOw8ds/edit?usp=sharing)
+### Add Bootstrap to your project
 
-## Agenda
+To add Bootstrap to your project, you will only need to modify your HTML file.
 
-- [ ] What is Bootstrap?
-- [ ] Getting started with Bootstrap
-- [ ] Bootstrap Breakpoints
-- [ ] Bootstrap Container
-- [ ] Bootstrap Grid
-- [ ] Bootstrap Cards
-- [ ] Bootstrap Navbar
+1. **Add the `<meta name="viewport">` tag:**
+   1. For proper responsive behavior on mobile devices, add the `<meta name="viewport">` tag to the head of your HTML file:
 
+      ```html
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      ```
+2. **Add Bootstrap’s CSS**:
+   1. In the head of your HTML file, add the following `<link>` tag:
 
-### What is Bootstrap?
-- History: [Link](https://getbootstrap.com/docs/5.3/about/overview/)
+      ```html
+      <!-- Bootstrap CSS -->
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous"
+      />
+      ```
+3. **Add Bootstrap’s JavaScript**:
 
-### Getting started with Bootstrap
-- Getting started: [Quick start](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start)
+   1. Before the closing `</body>` tag in your HTML:
 
-### Bootstrap Breakpoints
-- Breakpoints: [Link](https://getbootstrap.com/docs/5.3/layout/breakpoints/)
+      ```html
+      <!-- Bootstrap JavaScript -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"
+      ></script>
+      ```
 
-### Bootstrap Container
-- Containers: [Link](https://getbootstrap.com/docs/5.3/layout/containers/#responsive-containers)
+   b. Optionally, you can add the `<script>` tag to the `<head>` of your HTML file, you will just need to add the `defer` attribute:
 
-### Bootstrap Grid
-- Grid: [Link](https://getbootstrap.com/docs/5.3/layout/grid/)
-
-### Bootstrap Cards
-- Cards: [Link](https://getbootstrap.com/docs/5.3/components/card/)
-
-### Bootstrap Navbar
-- NavBar: [Link](https://getbootstrap.com/docs/5.3/components/navbar/)
-
-
-
-
-
-
+   ```html
+   <!-- Bootstrap JavaScript -->
+   <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+     crossorigin="anonymous"
+     **defer**
+   ></script>
+   ```
