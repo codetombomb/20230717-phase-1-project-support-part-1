@@ -1,0 +1,63 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#breakpoint {
+    color: purple;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: .5em 0 0 .5em;
+    padding: .2em;
+    border: 1px solid black;
+}
+
+#breakpoint::before {
+    content: "XS";
+    font-weight: 800;
+    color: forestgreen;
+}
+
+#breakpoint::after {
+    content: " Breakpoint";
+}
+
+/* ------------- Breakpoints ------------- */
+
+@media screen and (min-width: 576px){
+    #breakpoint::before {
+        content: "SM";
+        color: blue;
+    }
+}
+@media screen and (min-width: 768px){
+    #breakpoint::before {
+        content: "MD";
+        color: tomato;
+    }
+}
+@media screen and (min-width: 992px){
+    #breakpoint::before {
+        content: "LG";
+        color: mediumseagreen;
+    }
+}
+@media screen and (min-width: 1200px){
+    #breakpoint::before {
+        content: "XL";
+        color: chocolate;
+    }
+}
+@media screen and (min-width: 1400px){
+    #breakpoint::before {
+        content: "XXL";
+        color: deeppink;
+    }
+}
