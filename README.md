@@ -8,7 +8,6 @@
 - [ ] Bootstrap Container
 - [ ] Bootstrap Grid
 - [ ] Bootstrap Cards
-- [ ] Bootstrap Navbar
 
 ## What is Bootstrap?
 
@@ -54,3 +53,6 @@ In a nutshell, Bootstrap is a way for us to style our apps without writing our o
 
 ## Bootstrap Grid
 - [Link to bootstrap-grid branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-grid)
+
+## Bootstrap Cards
+- [Link to bootstrap-cards branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-cards)
