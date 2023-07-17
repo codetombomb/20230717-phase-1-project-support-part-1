@@ -1,4 +1,4 @@
-# Front End Project Support Day 1 - Bootstrap
+# Front End Project Support Day 1 - [Bootstrap](https://getbootstrap.com/)
 
 ## Agenda
 
@@ -47,4 +47,4 @@ In a nutshell, Bootstrap is a way for us to style our apps without writing our o
 - [Link to getting-started branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/getting-started)
 
 ## Bootstrap Breakpoints
-- [Link to getting-started branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-breakpoints)
+- [Link to bootstrap-breakpoints branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-breakpoints)
