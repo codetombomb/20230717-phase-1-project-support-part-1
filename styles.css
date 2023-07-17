@@ -43,8 +43,6 @@ h1 {
   background-color: rgb(153, 132, 248);
   height: 50px;
   border: 1px solid salmon;
-  display: grid;
-  place-items: center;
 }
 
 /* ------------- Breakpoints ------------- */
