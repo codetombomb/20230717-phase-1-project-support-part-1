@@ -12,7 +12,7 @@
 
 ## What is Bootstrap?
 
-Bootstrap is a set of tools that helps make websites look good and work well on different devices without writing CSS. It provides ready-made styles, making it easier for us to create attractive and user-friendly websites without starting from scratch.
+Bootstrap is a set of tools that helps make websites look good and work well on different devices without writing CSS. It provides ready-made styles that are accessible through classes, making it easier for us to create attractive and user-friendly websites without starting from scratch.
 
 In a nutshell, Bootstrap is a way for us to style our apps without writing our own CSS.
 
@@ -51,3 +51,6 @@ In a nutshell, Bootstrap is a way for us to style our apps without writing our o
 
 ## Bootstrap Containers
 - [Link to bootstrap-containers branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-containers)
+
+## Bootstrap Grid
+- [Link to bootstrap-grid branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-grid)
