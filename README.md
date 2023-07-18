@@ -2,11 +2,11 @@
 
 ## Agenda
 
-- [ ] What is Bootstrap?
-- [ ] Getting started with Bootstrap
-- [ ] Bootstrap Breakpoints
-- [ ] Bootstrap Container
-- [ ] Bootstrap Grid
+- [x] What is Bootstrap?
+- [x] Getting started with Bootstrap
+- [x] Bootstrap Breakpoints
+- [x] Bootstrap Container
+- [x] Bootstrap Grid
 - [ ] Bootstrap Cards
 
 ## What is Bootstrap?
