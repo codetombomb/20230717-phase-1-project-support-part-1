@@ -1,4 +1,4 @@
-# Front End Project Support Day 1 - [Bootstrap](https://getbootstrap.com/)
+# Front End Project Support Day 1 - 2: [Bootstrap](https://getbootstrap.com/)
 
 ## Agenda
 
