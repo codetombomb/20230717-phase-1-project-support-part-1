@@ -1,4 +1,4 @@
-# Front End Project Support Day 1 - Buttons
+# Front End Project Support Day 2 - Buttons
 
 Buttons: [Link](https://getbootstrap.com/docs/5.3/components/buttons/)
 
