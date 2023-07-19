@@ -1,4 +1,4 @@
-# Front End Project Support Day 1 - Rendering cards using JSON data
+# Front End Project Support Day 2 - Rendering cards using JSON data
 
 What we are going for:
 
