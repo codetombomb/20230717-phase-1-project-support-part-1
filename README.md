@@ -1,4 +1,4 @@
-# Front End Project Support Day 1 - Bootstrap Spinners
+# Front End Project Support Day 2 - Bootstrap Spinners
 
 [Spinners](https://getbootstrap.com/docs/5.3/components/spinners/)
 
