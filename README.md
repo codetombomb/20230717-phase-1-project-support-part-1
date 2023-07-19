@@ -1,4 +1,4 @@
-# Front End Project Support Day 1 - Bootstrap Cards
+# Front End Project Support Day 2 - Bootstrap Cards
 
 - Cards: [Link](https://getbootstrap.com/docs/5.3/components/card/)
 
