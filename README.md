@@ -1,69 +1,85 @@
-# Front End Project Support Day 1 - [Bootstrap](https://getbootstrap.com/)
+# Front End Project Support Day 1 - Buttons
 
-## Agenda
+Buttons: [Link](https://getbootstrap.com/docs/5.3/components/buttons/)
 
-- [x] What is Bootstrap?
-- [x] Getting started with Bootstrap
-- [x] Bootstrap Breakpoints
-- [x] Bootstrap Container
-- [x] Bootstrap Grid
-- [ ] Bootstrap Cards
+## About Bootstrap Buttons
+ All buttons need to have a base class of `.btn`:
 
-## What is Bootstrap?
+ ```html
+ <button type="button" class="btn">Base class</button>
+ ```
 
-Bootstrap is a set of tools that helps make websites look good and work well on different devices without writing CSS. It provides ready-made styles that are accessible through classes, making it easier for us to create attractive and user-friendly websites without starting from scratch.
+By default, this `.btn` class will not have any styles so you will need to define custom styles for your buttons or use the Bootstrap button variants like:
 
-In a nutshell, Bootstrap is a way for us to style our apps without writing our own CSS.
+- btn-primary
+- btn-secondary
+- btn-success
+- btn-danger
+- btn-warning
+- btn-dark
+- [Other Button Variants](https://getbootstrap.com/docs/5.3/components/buttons/#variants)
 
-### [A Brief History](https://blog.twitter.com/developer/en_us/a/2011/bootstrap-twitter#:~:text=on%20Github.-,A%20brief%20history,-In%20the%20earlier)
+### Anchor Tags As Buttons
+The `.btn` class can be used with `<a>` anchor tags (as well as input elements like on forms)too to create buttons. 
 
-- Initially started in 2010 by Twitter employees:
-    - Mark Otto
-        
-        <img src="https://avatars.githubusercontent.com/u/98681?v=4" height="150" alt="Professional headshot of Mark Otto"></img>
-        
-    - Jacob Thornton
-        
-        <img src="https://avatars.githubusercontent.com/u/169705?v=4" height="150" alt="Professional headshot of Jacob Thornton"></img>
-        
-- Bootstrap was created to [solve a problem](https://blog.twitter.com/developer/en_us/a/2011/bootstrap-twitter#:~:text=In%20the%20earlier%20days%20of%20Twitter%2C%20engineers%20used%20almost%20any%20library%20they%20were%20familiar%20with%20to%20meet%20front%2Dend%20requirements.%20Inconsistencies%20among%20the%20individual%20applications%20made%20it%20difficult%20to%20scale%20and%20maintain%20them.):
+```html
+<a class="btn btn-primary" href="#">Link</a>
+<input class="btn btn-primary" type="submit" value="Submit">
+```
 
-    - Early on at Twitter, many *different* front-end libraries were used to create the user interfaces which led to inconsistencies and made it difficult to keep everything up-to-date.
-- In 2010, during Twitter’s first-ever employee [Hack Week](https://blog.twitter.com/engineering/en_us/a/2010/hack-week) (October 22 - 29), Bootstrap (then called Twitter Blueprint) was quickly developed, by many Twitter employees, into a deployable solution to their front-end problem.
-- Almost a year later, on Friday, August 19, 2011, Bootstrap was released to the public and since has had over 20 releases including two major re-writes in versions 2 and 3.
-    - See Bootstrap’s versions page for more details: [Link](https://getbootstrap.com/docs/versions/)
+For accessability on anchor tags, they should be given a `role="button"`` to appropriately convey their purpose to assistive technologies such as screen readers.
 
-### Sources
+```html
+<a class="btn btn-primary" href="#" role="button">Link</a>
+```
 
-- Bootstrap History: https://getbootstrap.com/docs/5.3/about/overview/#history
-- Bootstrap Wiki: [https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+### Button Sizes
+There are three sizes of buttons: small, med (default), large. Large and small buttons can be created using:
 
-### Release History
-- [GitHub](https://github.com/twbs/bootstrap/releases)
-- [Docs History Index](https://getbootstrap.com/docs/versions/)
+- `btn-lg`
+- `btn-sm`
 
-## Getting started
-- [Link to getting-started branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/getting-started)
+Medium buttons are the default size and do not need a class explicitly.
 
-## Bootstrap Breakpoints
-- [Link to bootstrap-breakpoints branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-breakpoints)
+### Outline Style
+Outline buttons can be created with the class `.btn-outline-{variant}`:
 
-## Bootstrap Containers
-- [Link to bootstrap-containers branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-containers)
+```html
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+```
+***NOTE***: Since the colors used here are light, outlined buttons work best on darker backgrounds.
 
-## Bootstrap Grid
-- [Link to bootstrap-grid branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-grid)
+### Button Groups
+Button groups can be made by wrapping a series of `.btn` elements in a `.btn-group` element. This will give the group of buttons a cohesive style.
 
-## Bootstrap Cards
-- [Link to bootstrap-cards branch](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-cards)
+```html
+<div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-primary">Left</button>
+  <button type="button" class="btn btn-primary">Middle</button>
+  <button type="button" class="btn btn-primary">Right</button>
+</div>
+```
 
-## Render Bootstrap Cards Using JSON Data
-- [Link to render-cards-with-bootstrap](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/render-cards-with-bootstrap)
+***NOTE***: For accessibility with assistive tech, use the `role` attribute and `aria-label` to correctly identify buttons. 
 
-## Bootstrap Buttons
-- Link: https://getbootstrap.com/docs/5.3/components/buttons/
+You can mix up the variants on the buttons themselves to create outlined button groups or different colors within the group.
 
-## Bootstrap Spinners
-- Link: https://getbootstrap.com/docs/5.3/components/spinners/
+
+### Button Group Vertical
+Change the orientation of the button group to appear vertically by using the `.btn-group-vertical` class on the button group element.
+
+```html
+<div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+  <button type="button" class="btn btn-primary">Button</button>
+  <button type="button" class="btn btn-primary">Button</button>
+  <button type="button" class="btn btn-primary">Button</button>
+  <button type="button" class="btn btn-primary">Button</button>
+  <button type="button" class="btn btn-primary">Button</button>
+  <button type="button" class="btn btn-primary">Button</button>
+</div>
+```
+
+
 
 
