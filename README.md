@@ -61,9 +61,9 @@ In a nutshell, Bootstrap is a way for us to style our apps without writing our o
 - [Link to render-cards-with-bootstrap](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/render-cards-with-bootstrap)
 
 ## Bootstrap Buttons
-- Link: https://getbootstrap.com/docs/5.3/components/buttons/
+- [Link to bootstrap-buttons](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-buttons)
 
 ## Bootstrap Spinners
-- Link: https://getbootstrap.com/docs/5.3/components/spinners/
+- [Link to bootstrap-spinners](https://github.com/codetombomb/20230717-phase-1-project-support-part-1/tree/bootstrap-spinners)
 
 
